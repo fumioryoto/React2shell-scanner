@@ -9,8 +9,6 @@
 """
 React2Shell Scanner - High Fidelity Detection for RSC/Next.js RCE
 CVE-2025-55182 & CVE-2025-66478
-
-Based on research from Assetnote Security Research Team.
 """
 
 import argparse
@@ -59,7 +57,7 @@ def colorize(text: str, color: str) -> str:
 def print_banner():
     """Print the tool banner."""
     banner = f"""
-{Colors.CYAN}{Colors.BOLD}brought to you by assetnote{Colors.RESET}
+{Colors.CYAN}{Colors.BOLD}brought to you by Orions-Hunter{Colors.RESET}
 """
     print(banner)
 
@@ -788,3 +786,4 @@ Examples:
 
 if __name__ == "__main__":
     main()
+
